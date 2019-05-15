@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  overflow-x:hidden;
+}
+body{
+  margin: 0;
+  background-color: #E1E3E8;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.top{
+  width: 100%;
+  background-color: #c1b7b4;
+}
+.menu{
+  width: 960px;
+  margin: auto;
+  padding: 5px 0;
+}
+.flex{
+  display: flex;
+}
+.logo{
+  margin-right: 200px;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 23px;
+}
+.menu li{
+  display: inline;
+}
+.menu li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: #7a2020;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu li a:hover{
+  text-decoration: underline;
+  color: #4c876a;
+}
+.footer{
+  background-color: #102030;
+  height: 520px !important;
+  width: 100%;
+  color: #ddd;
+}
+.footer section{
+  width: 960px;
+  padding: 60px;
+  margin: 0 auto;
+}
+.sect{
+  flex: 1;
+  height: 200px;
+  padding: 30px;
+  box-sizing:border-box;
+}
+.sect h4{
+  color: #aa6464;
+}
+.sect p{
+  color: #aaa;
+}
+h4{
+  margin: 0;
+}
+.divisor{
+  height: 1px;
+  width: 100%;
+  background-color: #aaa;
+  margin-bottom: 30px;
+}
+.copy{
+  margin: 0;
+  text-align: center;
+}
+.sect ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.sect li{
+  display: block;
+}
+.sect li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+}
+.title{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #353535;
+}
+.titleDivisor{
+  height: 3px;
+  width: 70%;
+  background-color: #353535;
+  margin: auto;
+}
+.inscricao, .login{
+  padding: 30px;
+  box-sizing: border-box;
+}
+.inscricao label{
+  text-align: left;
+  display: block;
+  margin: 25px 70px;
+  font-size: 18px;
+}
+.inscricao input, .login input{
+  padding: 5px;
+  margin-left: 8px;
+  width: 90%;
+  font-size: 16px;
+  border: solid 2px #333;
+  border-radius: 10px 15px 15px 10px;
+}
+.login input{
+  width: 40%;
+}
+.submit{
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  width: 40% !important;
+  background-color: #925343;
+  color: #d8d3d1;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.submit:hover{
+  background-color: #EBF9F0;
+  color: #444;
+}
+.login label{
+  text-align: center;
+  display: block;
+  margin: 50px 0;
+  font-size: 18px;
+}
+.erro{
+  margin-top: 30px;
+  color: #F00;
+  text-decoration: underline;
+}
+#msg{
+	z-index: 100;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #eee;
+	font-weight: 800;
+	width: 550px;
+	padding: 50px 15px;
+	background-color: #4c876a;
+	border: solid 4px #666;
+	border-radius: 12px;
+	display: none;
+	font-size: 25px;
+	text-align: center;
+}
+.bordinha{
+  border: 2px solid #7a2020;
+}
+.header, .mapa{
+  margin: 20px 0;
+}
+.quadrado{
+  width: 760px;
+  margin: auto;
+  background-color: #e6d7d4;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.divSections{
+  padding: 4px;
+  background-color: #4c876a;
+  margin: 10px;
+  color: #eee;
+}
+.autor{
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.autorParag, .persoParag, .univerParag{
+  text-align: left;
+  margin-left: 10px;
+}
+.mapa{
+  float: left;
+}
+.cidades{
+  text-align: left;
+}
+.cidades li{
+  margin-top: 5px;
+}
+.persoTitle{
+  margin-bottom: 2px;
+  margin-top: 35px;
+}
+.persoDivisor{
+  height: 2px;
+  width: 50%;
+  background-color: #353535;
+  margin-top: 2px;
+}
+.persoText{
+  padding: 10px;
+}
+.linkCorpo{
+  font-size: 14px;
+  color: #7a2020;
+}
+.linkCorpo:hover{
+  color: #4c876a;
+  text-decoration: none;
+}
+.universidadeimg{
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 500px;
+}
+.univerParag{
+  margin-top: 20px;
+}
+.headerUniver{
+  margin: 12px;
+}
+.fundCinza{
+  width: 760px;
+  margin: auto;
+  background-color: #f5f0f9;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.univerParag li{
+  margin: 6px;
+  font-size: 15px;
+}
+.row{
+	display: flex;
+	flex-flow: row wrap;
+}
+.galeriaimg{
+	width: 30%;
+	margin: 10px;
+	box-sizing: border-box;
+}
+.size{
+	width: 100%;
+	margin-top: 20px;
+}
+#imagem_upload{
+  border: none;
+  margin-top: 10px;
+}
+.titleAdm{
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #c1b7b4;
+  color: #eee;
+  margin: 0;
+}
+span{
+  margin: 0 30px;
+}
+.large{
+  font-size: 20px;
+}
+.tabela{
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+.tabela th{
+	background-color: #3f2129;
+	color: #ddd;
+	padding: 10px;
+}
+.tabela tr{
+	background-color: #abd4d8;
+}
+.tabela td{
+	padding: 10px;
+}
+.radio{
+  margin: 0;
+  display: inline-flex;
+  width: auto;
+}
+.envioMens{
+  padding: 20px;
+  margin: 20px;
+}
+.envioMens label{
+  text-align: left;
+  display: block;
+  margin: 0;
+  margin-left: 40px;
+  font-size: 24px;
+}
+.envioMens input{
+  padding: 15px;
+  border: solid 1px #7a2020;
+  border-radius: 10px;
+}
+#mensagem{
+  width: 50%;
+}
+#enviarMens{
+  width: 20% !important;
+}
+.mensagemFora{
+  width: 500px;
+  border: solid 3px #7a2020;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 20px auto;
+  background-color: #4c876a;
+  color: #eee;
+}
+.mensagemTitle{
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+}
+.mensagemDentro{
+  text-align: left;
+  border: solid 2px #7a2020;
+  padding: 25px;
+  border-radius: 35px;
+  background-color: #f5f0f9;
+  color: #333;
+}
+.mensagemData{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+.linkPreto  {
+  font-size: 14px;
+  color: #000;
+}
+.linkPreto:hover{
+  color: #eee;
+  text-decoration: none;
+}
+.toggle{
+	display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  .footer{
+    height: 600px;
+    background-color:
+  }
+  .footer div{
+    width: 100%;
+    margin: 120px 0;
+    display: block;
+  }
+  .logo{
+    margin: 0;
+  }
+  .footer{
+    height: 100% !important;
+    width: 100%;
+  }
+  .galeriaimg{
+    width: 100%;
+  }
+  .footer section{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .blocker{
+    display: block !important;
+  }
+  .copy h4{
+    padding: 30px 0;
+  }
+  .bordinha{
+    width: 100%;
+  }
+  .cidades{
+    display: block;
+  }
+  .mapa{
+    display: block;
+  }
+  .blocker{
+    display: block;
+  }
+  .quadrado{
+    width: 100%;
+  }
+  .fundCinza{
+    width: 100%;
+  }
+  .mensagemFora{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .envioMens label{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .divSections{
+    width: 90%;
+  }
+  .inscricao, .login{
+    padding: 0;
+  }
+  .inscricao label{
+    margin: 25px 0;
+  }
+  .login input{
+    width: 90%;
+  }
+  .submit{
+    width: 60% !important;
+  }
+  .submit:hover{
+    background-color: #EBF9F0;
+    color: #444;
+  }
+  .login label{
+    text-align: center;
+    display: block;
+    margin: 50px 0;
+    font-size: 18px;
+  }
+  .toggle{
+	   display: inline-block !important;
+     color: #7a2020 !important;
+     text-decoration: none;
+     font-size: 30px;
+     margin: 30px;
+	}
+  .menu li{
+		display: block;
+	}
+  .tabela{
+    width: 80%;
+  }
+  .none{
+    display: none;
+  }
+  #links{
+		display: none;
+	}
+  #msg{
+    width: 85%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  #mensagem{
+    width: 100%;
+  }
+  #enviarMens{
+    width: 50% !important;
+  }
+}/* fim do media query */
